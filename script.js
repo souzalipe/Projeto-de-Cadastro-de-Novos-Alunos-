@@ -1,5 +1,5 @@
 class Aluno {
-    constructor(nome,idade,turma,id){
+    constructor(nome, idade, turma, id) {
         this.nome = nome
         this.idade = idade
         this.turma = turma
@@ -7,41 +7,51 @@ class Aluno {
     }
 }
 
+
 const paragrafo = document.getElementById("mostrar")
 
 const botao_enviar = document.getElementById("btn-enviar")
 const botao_editar = document.getElementById("btn-editar")
 const botao_deletar = document.getElementById("btn-deletar")
 
-botao_enviar.addEventListener('click', (e) =>{
+function deletarAluno(id) { // remove o elemento da tela 
+    console.log(document.getElementById(id))
+    paragrafo.removeChild(document.getElementById(id))
+}
+
+botao_enviar.addEventListener('click', (e) => {
     e.preventDefault()
     const nome = document.getElementById("Nome").value
     const idade = document.getElementById("Idade").value
     const turma = document.getElementById("Turma").value
     const id = document.getElementById("iD").value
-    
+
     const aluno = new Aluno(nome, idade, turma, id);
 
-    // Criar um novo elemento de parágrafo para exibir os detalhes do aluno novo 
-    const novoParagrafo = document.createElement("p");
-    novoParagrafo.innerHTML = `Nome: ${aluno.nome}<br> Idade: ${aluno.idade}<br> Turma: ${aluno.turma}<br> Código de Identificação: ${aluno.id}`;
 
-    // Adicionar o novo parágrafo à seção de exibição de alunos
-    paragrafo.appendChild(novoParagrafo);
+    if (document.getElementById(aluno.id)) {
+        document.getElementById(aluno.id).innerHTML = `Nome: ${aluno.nome}<br> Idade: ${aluno.idade}<br> Turma: ${aluno.turma}<br> Código de Identificação: ${aluno.id}<br> 
+        <button id="btn_delete_${aluno.id}"> Deletar </button>`
+    } else {
+        // Criar um novo elemento de parágrafo para exibir os detalhes do aluno novo 
+        const novoParagrafo = `<p id="${aluno.id}"> Nome: ${aluno.nome}<br> Idade: ${aluno.idade}<br> Turma: ${aluno.turma}<br> Código de Identificação: ${aluno.id}<br> 
+ <button id="btn_delete_${aluno.id}"> Deletar </button> </p>`;
+
+        // pega o que ja tem no HTML e adiciona o paragrafo fo aluno 
+        paragrafo.innerHTML += novoParagrafo
+    }
+
+
+    const deleteBtn = document.getElementById("btn_delete_" + aluno.id)  // busca o id do aluno 
+
+    //remove o elemento da tela 
+    deleteBtn.addEventListener('click', function () { deletarAluno(aluno.id) })
+
+
+
+
+
 })
 
-botao_deletar.addEventListener('click', (e) => {
-    e.preventDefault();
-
-    // Verifica se há algum parágrafo na seção de exibição
-    if (paragrafo.lastChild) {
-        // Remove o último parágrafo que exibe os detalhes do último aluno cadastrado
-        paragrafo.removeChild(paragrafo.lastChild);
-        // Atualiza a variável do último aluno cadastrado para null aparece o alert
-        ultimoAlunoCadastrado = null;
-    } else {
-        alert("Nenhum aluno cadastrado para deletar.");
-    }
-});
 
 
