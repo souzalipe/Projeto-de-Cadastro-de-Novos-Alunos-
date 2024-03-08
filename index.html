@@ -17,25 +17,29 @@
         <section>
             <h3>Cadastre os Novos alunos aqui</h3>
             <form action="">
-                <label for="">Nome do Aluno Matriculado</label>
-                <input type="text" placeholder="Digite o Nome do aluno" required>
+                <label for="" id="input-nome">Nome do Aluno Matriculado</label>
+                <input type="text" id="Nome" placeholder="Digite o Nome do aluno" required>
                 <br>
-                <label for="">Idade do Aluno</label>
-                <input type="text" placeholder="Digite a Idade do aluno" required>
+                <label for="" id="input-idade">Idade do Aluno</label>
+                <input type="number" id="Idade" placeholder="Digite a Idade do aluno" required>
                 <br>
-                <label for="">Turma do Aluno</label>
-                <input type="text" placeholder="Digite a Turma do aluno" required>
+                <label for="" id="input-turma">Turma do Aluno</label>
+                <input type="text" id="Turma" placeholder="Digite a Turma do aluno" required>
                 <br>
-                <label for="">Código de Identificação</label>
-                <input type="text" placeholder="Digite o Código de Identificação do aluno" required>
+                <label for="" id="input-identificação"> Código de Identificação</label>
+                <input type="text" id="iD"  placeholder="Digite o Código de Identificação do aluno" required>
                 <br>
-                <button>Enviar Cadastro</button>
-                <button>Listar Cadastros</button>
-                <button>Editar Cadastros</button>
-                <button>Deletar Ultimo Cadastro</button>
+                <button id="btn-enviar">Enviar Cadastro</button>
+                <button id="btn-editar">Editar Cadastros</button>
+                <button id="btn-deletar">Deletar Ultimo Cadastro</button>
             </form>
         </section>
+
+        <section class="cadastrados">
+            <p id="mostrar"></p>
+        </section>
     </main>
+    <script src="script.js"></script>
 </body>
 
 </html>

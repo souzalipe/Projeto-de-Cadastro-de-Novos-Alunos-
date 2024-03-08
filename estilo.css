@@ -45,6 +45,15 @@ input[type="text"] {
     border-radius: 4px;
 }
 
+input[type="number"] {
+    width: calc(100% - 10px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #FFD60A;
+    border-radius: 4px;
+}
+
+
 button {
     background-color: #FFC300;
     color: #fff;
@@ -57,4 +66,8 @@ button {
 
 button:hover {
     background-color: #FFD60A;
+}
+
+#mostrar{
+    color: #EAE0D5;
 }
