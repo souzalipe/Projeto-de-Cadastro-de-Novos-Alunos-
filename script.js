@@ -46,12 +46,5 @@ botao_enviar.addEventListener('click', (e) => {
 
     //remove o elemento da tela 
     deleteBtn.addEventListener('click', function () { deletarAluno(aluno.id) })
-
-
-
-
-
 })
-
-
 
