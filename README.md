@@ -13,4 +13,7 @@
 <li> Utilize o codigo de identificação  no input para editar o cadastro do aluno desejado;</li>
 <li> Com o botão deletar exclua as informações do aluno do sitema.</li>
 </ul>
+<p>
+<img src="./imagens/iPhone-13-PRO-127.0.0.1.png">
+</p>
 
