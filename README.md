@@ -1,6 +1,6 @@
 <h1>&#x1F680; Sistema de Cadastro de alunos. &#x1F680;</h1>
 <p>
-<img src="./imagens/Screenshot_2024-05-26_15-14-19.png" />
+<img src="./assets/Screenshot_2024-05-26_15-14-19.png" />
 </p>
 
 <br>
@@ -14,6 +14,6 @@
 <li> Com o botão deletar exclua as informações do aluno do sitema.</li>
 </ul>
 <p>
-<img src="./imagens/iPhone-13-PRO-127.0.0.1.png">
+<img src="./assets/iPhone-13-PRO-127.0.0.1.png">
 </p>
 
