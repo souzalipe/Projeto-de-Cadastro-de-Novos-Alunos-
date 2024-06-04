@@ -16,6 +16,7 @@
 </ul>
 
 <br>
+<hr>
 <p>
 <img src="./assets/iPhone-13-PRO-127.0.0.1.png">
 </p>
@@ -25,8 +26,9 @@
 <li> CSS;</li>
 <li> JavaScript.</li>
 </ul>
+<hr>
 <footer>
-
-test 
+<h1>Muito Obrigado!</h1>
+ 
 
 </footer>
