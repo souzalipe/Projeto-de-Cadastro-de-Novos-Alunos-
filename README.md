@@ -4,6 +4,7 @@
 </p>
 
 <br>
+
 <h2>Descrição 	&#9997;</h2>
 <p>O Sistema de Cadastro de Alunos é uma aplicação web desenvolvida com HTML, CSS e JavaScript, que permite gerenciar informações de alunos de forma simples e intuitiva. Com este sistema, é possível adicionar novos alunos, editar informações existentes e excluir cadastros desnecessários. A interface amigável e a funcionalidade prática tornam este sistema uma solução eficiente para o gerenciamento de dados estudantis.</p>
 
@@ -16,6 +17,7 @@
 </ul>
 
 <br>
+
 <hr>
 <p>
 <img src="./assets/iPhone-13-PRO-127.0.0.1.png">
@@ -26,9 +28,10 @@
 <li> CSS;</li>
 <li> JavaScript.</li>
 </ul>
+
+<br>
+
 <hr>
-<footer>
-<h1>Muito Obrigado!</h1>
+<h1>Muito Obrigado! &#128075;</h1>
  
 
-</footer>
