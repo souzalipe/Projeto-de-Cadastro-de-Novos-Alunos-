@@ -22,6 +22,7 @@
 <p>
 <img src="./assets/iPhone-13-PRO-127.0.0.1.png">
 </p>
+<hr>
 <h2>Tecnologias Usadas &#9881;</h2>
 <ul>
 <li> HTML;</li>
