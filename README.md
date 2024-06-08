@@ -1,38 +1,69 @@
-<h1>&#x1F680; Sistema de Cadastro de alunos. &#x1F680;</h1>
-<p>
-<img src="./assets/Screenshot_2024-05-26_15-14-19.png" />
-</p>
+## Cadastro de Alunos &#x1F680;
 
-<br>
+O Sistema de Cadastro de Alunos é uma aplicação web desenvolvida com HTML, CSS e JavaScript, que permite gerenciar informações de alunos de forma simples e intuitiva. Com este sistema, é possível adicionar novos alunos, editar informações existentes e excluir cadastros desnecessários. A interface amigável e a funcionalidade prática tornam este sistema uma solução eficiente para o gerenciamento de dados estudantis.
 
-<h2>Descrição 	&#9997;</h2>
-<p>O Sistema de Cadastro de Alunos é uma aplicação web desenvolvida com HTML, CSS e JavaScript, que permite gerenciar informações de alunos de forma simples e intuitiva. Com este sistema, é possível adicionar novos alunos, editar informações existentes e excluir cadastros desnecessários. A interface amigável e a funcionalidade prática tornam este sistema uma solução eficiente para o gerenciamento de dados estudantis.</p>
+### Estrutura de Arquivos &#x1F4C4;
 
-<hr>
-<h2>Como usar &#10067;</h2>
-<ul>
-<li> Utilize o botão de cadastro para adicionar um aluno ao sistema;</li>
-<li> Utilize o codigo de identificação  no input para editar o cadastro do aluno desejado;</li>
-<li> Com o botão deletar exclua as informações do aluno do sitema.</li>
-</ul>
+```
+├── src
+│   ├── assets
+│   │   ├── imgs
+│   │   
+│   ├── estilo.css
+│   ├── index.html
+│   ├── README.md
+│   └── script.js
+```
 
-<br>
+## Pré-requisitos &#x1F528; 
 
-<hr>
-<p>
-<img src="./assets/iPhone-13-PRO-127.0.0.1.png">
-</p>
-<hr>
-<h2>Tecnologias Usadas &#9881;</h2>
-<ul>
-<li> HTML;</li>
-<li> CSS;</li>
-<li> JavaScript.</li>
-</ul>
+- CSS 3
+- HTML 5
+- Java Script
 
-<br>
+## Instalação &#x1F527;
 
-<hr>
-<h1>Muito Obrigado! &#128075;</h1>
- 
+1. Clone o repositório:
+
+   ```
+   git clone https://github.com/souzalipe/Projeto-de-Cadastro-de-Novos-Alunos-.git
+   ```
+
+
+## Executando a Aplicação &#x27A1;
+
+<img src="assets/imgs/Cadastro de Novos Alunos.gif">
+
+- Utilize o botão de cadastro para adicionar um aluno ao sistema  ;
+
+- Utilize o codigo de identificação  no input para editar o cadastro do aluno desejado;
+
+- Com o botão deletar exclua as informações do aluno do sitema.
+
+
+## Endpoints
+
+## Importando a Collection no Postman
+
+1. Abra o Postman.
+2. Vá em "File" > "Import".
+3. Selecione a opção "Upload Files".
+4. Navegue até o local onde a collection do Postman está salva e selecione o arquivo.
+5. Clique em "Import".
+
+A collection agora estará disponível no Postman e você poderá testar os endpoints configurados.
+
+## Contribuindo
+
+Se desejar contribuir com o projeto, siga os passos abaixo:
+
+1. Fork o projeto.
+2. Crie uma nova branch com sua feature: `git checkout -b minha-feature`.
+3. Commit suas alterações: `git commit -m 'Minha nova feature'`.
+4. Push para a branch: `git push origin minha-feature`.
+5. Abra um Pull Request.
+
+## Licença &#x1F468;&#x1F3FF;
+
+© Felipe Nascimento de Souza. 
 
